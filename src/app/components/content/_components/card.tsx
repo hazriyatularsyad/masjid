@@ -10,7 +10,7 @@ export default function Gallery() {
       <div className=" flex flex-wrap w-full">
         <div className="w-1/2 p-2 overflow-hidden">
           <Image
-            src="/1.jpg"
+            src="/b.jpeg"
             width={500}
             height={400}
             alt="1"
@@ -19,7 +19,7 @@ export default function Gallery() {
         </div>
         <div className="w-1/2 p-2">
           <Image
-            src="/1.jpg"
+            src="/c.jpeg"
             width={500}
             height={400}
             alt="2"
@@ -28,7 +28,7 @@ export default function Gallery() {
         </div>
         <div className="w-1/2 p-2">
           <Image
-            src="/1.jpg"
+            src="/d.jpeg"
             width={500}
             height={400}
             alt="3"
@@ -37,7 +37,7 @@ export default function Gallery() {
         </div>
         <div className="w-1/2 p-2">
           <Image
-            src="/1.jpg"
+            src="/c.jpeg"
             width={500}
             height={400}
             alt="4"
