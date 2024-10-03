@@ -14,34 +14,34 @@ export default function Gallery() {
             width={500}
             height={400}
             alt="1"
-            className="w-full h-auto rounded-lg hover:scale-125 duration-300"
+            className="w-full h-[20vh] rounded-lg hover:scale-110 duration-300"
           />
         </div>
-        <div className="w-1/2 p-2">
+        <div className="w-1/2 p-2 overflow-hidden">
           <Image
             src="/c.jpeg"
             width={500}
             height={400}
             alt="2"
-            className="w-full h-auto rounded-lg"
+            className="w-full h-[20vh] rounded-lg hover:scale-110 duration-300"
           />
         </div>
-        <div className="w-1/2 p-2">
+        <div className="w-1/2 p-2 overflow-hidden">
           <Image
             src="/d.jpeg"
             width={500}
             height={400}
             alt="3"
-            className="w-full h-auto rounded-lg"
+            className="w-ful h-[20vh] rounded-lg hover:scale-110 duration-300"
           />
         </div>
-        <div className="w-1/2 p-2">
+        <div className="w-1/2 p-2 overflow-hidden">
           <Image
             src="/c.jpeg"
             width={500}
             height={400}
             alt="4"
-            className="w-full h-auto rounded-lg"
+            className="w-full h-[20vh] rounded-lg hover:scale-110 duration-300"
           />
         </div>
       </div>

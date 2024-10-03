@@ -1,24 +1,25 @@
 import React from "react"
 import Gallery from "./_components/card"
 import Link from "next/link"
+import Offering from "./_components/offering"
 
 export default function Content() {
   return (
     <div>
       <div className="flex flex-col text-center p-3 ">
         <h2 className="py-2 font-bold text-gray-900 text-l uppercase">
-          Wakaf Untuk Masjid Mutiara Hati
+          Wakaf Karpet Mushalla Mutiara Hati Payakumbuh
         </h2>
-        <p className="text-balance text-sm text-slate-600">
-          Assalamu’alaikum Warahmatullahi Wabarakatuh, Segala puji bagi Allah
-          SWT yang telah memberikan kita nikmat iman dan kesempatan untuk
-          berbagi kebaikan. Kami dari pengurus Masjid Mutiara Hati ingin
-          mengajak Bapak/Ibu serta saudara-saudari sekalian untuk berpartisipasi
-          dalam amal jariyah melalui wakaf untuk pembelian karpet masij mutiara
-          hati.
+        <p className="text-pretty text-sm text-slate-600">
+          Assalamu’alaikum Warahmatullahi Wabarakatuh,
+          <span className="font-bold">Mari Bergabung</span> dan ikut andil dalam
+          upaya <span className="font-bold">Memakmurkan Masjid,</span> dan
+          <span className="font-bold"> Mundulang Jariah</span> dari setipa orang
+          yang <span className="font-bold">Sujud & Beribadah kepada Allah.</span>
         </p>
       </div>
-      <Gallery />
+          <Gallery />
+          <Offering/>
       <div className="p-3">
         <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow ">
           <a href="#">
